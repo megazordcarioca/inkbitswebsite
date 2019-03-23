@@ -8,8 +8,8 @@
 body{
 	
 	font-family: Helvetica, Arial;
-	font-style: normal;
-	background-color : white;
+	font-style:normal;
+	background-color:white;
 	
 }
 
@@ -23,6 +23,12 @@ nav{
 	font-style: italic;
 	allign: center;
 	
+}
+
+footer{
+	clear:both;
+	background-color:black;
+	height:50px;
 }
 
 
