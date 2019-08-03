@@ -1,40 +1,25 @@
 /*CSS*/
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
 body {font-family: Helvetica, Arial;font-style:normal;background-color:white;}
-section {background: url(img/back.gif) no-repeat center;height: 460px;position: center; background-color:#000000  !important;}
-/*CLASSES*/
+
+section {background: url(/img/back.gif) no-repeat fixed center;height: 460px;position: center; background-color:#000000  !important;}
 .section-text {text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;}
-.section-text > h1 {border:12px solid;padding: 13px;}
+.section-text > h1 {border:10px solid;padding: 13px;}
 .section-text-secondary {text-align: center;position: absolute;top: 60%;left: 50%;transform: translate(-50%, -50%);color:#abbfd8;font-family:  sans-serif;text-align: left;}
 /*classe referente ao fundo mas a frente do video*/ 
 .background-secondary{background-color:rgba(0,0,0,0.5);padding:100px;}
-
+/**/
 nav {font-family: Helvetica, Arial;text-align: center;}
 
-a {text-decoration: none !important;color: black !important;}
+a {text-decoration: none !important;color: #000000 !important;}
 
 li {padding-right: 40px  !important;padding-left: 40px  !important;padding-top: 60px  !important;}
+li.nav-item-img{padding-right: 200px  !important;padding-left: 10px  !important;padding-top: 10px  !important;}
+li > a:hover {color: #ececec !important;transition: all 100ms ease-out;backface-visibility: hidden !important;}
 
-li.nav-item-img{padding-right: 30px  !important;padding-left: 10px  !important;padding-top: 10px  !important;}
+footer {clear:both;background-color:#ffffff;height:50px;text-align: center;padding-top: 15px;color:#000000!important;}
 
-li > a:hover {
-	color: #ececec !important;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-	transition: all 500ms ease-in-out;
-	backface-visibility: hidden !important;
-}
-
-footer {
-	clear:both;
-	background-color:#000000;
-	height:50px;
-	text-align: center;
-	padding: 0px;
-	color: #c4c4c4 !important;
-
-}
 
 /* @media only screen and (max-width: 580px) {
 	section{
