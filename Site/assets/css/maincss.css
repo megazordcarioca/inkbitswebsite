@@ -1,70 +1,20 @@
-	/*CSS*/
-body {
-	font-family: Helvetica, Arial;
-	font-style:normal;
-	background-color:white;
-}
-
-section {
-	background: url(img/back.gif) no-repeat center;
-	height: 460px;
-	position: center; 
-	background-color:#000000  !important;
-}
-
+/*CSS*/
+body {font-family: Helvetica, Arial;font-style:normal;background-color:white;}
+section {background: url(img/back.gif) no-repeat center;height: 460px;position: center; background-color:#000000  !important;}
 /*CLASSES*/
+.section-text {text-align: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;}
+.section-text > h1 {border:12px solid;padding: 13px;}
+.section-text-secondary {text-align: center;position: absolute;top: 60%;left: 50%;transform: translate(-50%, -50%);color:#abbfd8;font-family:  sans-serif;text-align: left;}
+/*classe referente ao fundo mas a frente do video*/ 
+.background-secondary{background-color:rgba(0,0,0,0.5);padding:100px;}
 
-.section-text {
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
+nav {font-family: Helvetica, Arial;text-align: center;}
 
-  }
-.section-text > h1 {
-	border:12px solid;
-	padding: 13px;
-  }
-  .section-text-secondary {
-	text-align: center;
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #abbfd8;
-	font-family:  sans-serif;
-	text-align: left;
-  }
- /*classe referente ao fundo mas a frente do video*/ 
-  .background-secondary{
-	  background-color:rgba(0,0,0,0.5);
-	  padding:100px;
-  }
-/**/
+a {text-decoration: none !important;color: black !important;}
 
-nav {
-	font-family: Helvetica, Arial;
-	text-align: center;
-}
+li {padding-right: 40px  !important;padding-left: 40px  !important;padding-top: 60px  !important;}
 
-a {
-	text-decoration: none !important;
-	color: black !important;
-}
-
-li {
-	padding-right: 40px  !important;
-	padding-left: 40px  !important;
-	padding-top: 60px  !important;
-}
-
-li.nav-item-img{
-	padding-right: 30px  !important;
-	padding-left: 10px  !important;
-	padding-top: 10px  !important;
-}
+li.nav-item-img{padding-right: 30px  !important;padding-left: 10px  !important;padding-top: 10px  !important;}
 
 li > a:hover {
 	color: #ececec !important;
@@ -74,9 +24,9 @@ li > a:hover {
     -o-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
 	backface-visibility: hidden !important;
-  }
+}
 
- footer {
+footer {
 	clear:both;
 	background-color:#000000;
 	height:50px;
@@ -100,4 +50,3 @@ li > a:hover {
 		left: 1%;
 		transform: translate(1%, 1%);
 } */
-}
